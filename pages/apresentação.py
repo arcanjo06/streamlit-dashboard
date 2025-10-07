@@ -11,7 +11,7 @@ st.write("""
 Este dashboard apresenta uma análise detalhada dos dados dos jogadores do FIFA 26.
 """)
 
-st.subheader("Grafico de Porcentagem de Posições")
+st.subheader("Grafico de Quantidade de Posições")
 position_counts = df["club_position"].value_counts()
 
 fig = pt.bar(
